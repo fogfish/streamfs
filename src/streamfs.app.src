@@ -1,0 +1,14 @@
+{application, streamfs,
+   [
+      {description, "stream-based file system"},
+      {vsn,         "0.0.0"},
+      {modules,     []},
+      {registered,  []},
+      {applications,[
+         kernel,
+         stdlib,
+         datum
+      ]},
+      {env, []}
+   ]
+}.  
